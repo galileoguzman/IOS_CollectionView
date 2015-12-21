@@ -9,10 +9,19 @@
 /* Begin PBXBuildFile section */
 		F26E0D911C28725E0053A1C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F26E0D901C28725E0053A1C2 /* main.m */; };
 		F26E0D941C28725E0053A1C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F26E0D931C28725E0053A1C2 /* AppDelegate.m */; };
-		F26E0D971C28725E0053A1C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F26E0D961C28725E0053A1C2 /* ViewController.m */; };
+		F26E0D971C28725E0053A1C2 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = F26E0D961C28725E0053A1C2 /* Home.m */; };
 		F26E0D9A1C28725E0053A1C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F26E0D981C28725E0053A1C2 /* Main.storyboard */; };
 		F26E0D9C1C28725E0053A1C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F26E0D9B1C28725E0053A1C2 /* Assets.xcassets */; };
 		F26E0D9F1C28725E0053A1C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F26E0D9D1C28725E0053A1C2 /* LaunchScreen.storyboard */; };
+		F26E0DA81C2878C60053A1C2 /* cellOne.m in Sources */ = {isa = PBXBuildFile; fileRef = F26E0DA71C2878C60053A1C2 /* cellOne.m */; };
+		F26E0DB11C287B590053A1C2 /* marvel-2.png in Resources */ = {isa = PBXBuildFile; fileRef = F26E0DAA1C287B590053A1C2 /* marvel-2.png */; };
+		F26E0DB21C287B590053A1C2 /* marvel-3.png in Resources */ = {isa = PBXBuildFile; fileRef = F26E0DAB1C287B590053A1C2 /* marvel-3.png */; };
+		F26E0DB31C287B590053A1C2 /* marvel-4.png in Resources */ = {isa = PBXBuildFile; fileRef = F26E0DAC1C287B590053A1C2 /* marvel-4.png */; };
+		F26E0DB41C287B590053A1C2 /* marvel-5.png in Resources */ = {isa = PBXBuildFile; fileRef = F26E0DAD1C287B590053A1C2 /* marvel-5.png */; };
+		F26E0DB51C287B590053A1C2 /* marvel-6.png in Resources */ = {isa = PBXBuildFile; fileRef = F26E0DAE1C287B590053A1C2 /* marvel-6.png */; };
+		F26E0DB61C287B590053A1C2 /* marvel-8.png in Resources */ = {isa = PBXBuildFile; fileRef = F26E0DAF1C287B590053A1C2 /* marvel-8.png */; };
+		F26E0DB71C287B590053A1C2 /* marvel-9.png in Resources */ = {isa = PBXBuildFile; fileRef = F26E0DB01C287B590053A1C2 /* marvel-9.png */; };
+		F26E0DBA1C2887890053A1C2 /* cellTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = F26E0DB91C2887890053A1C2 /* cellTwo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +29,23 @@
 		F26E0D901C28725E0053A1C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F26E0D921C28725E0053A1C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F26E0D931C28725E0053A1C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F26E0D951C28725E0053A1C2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F26E0D961C28725E0053A1C2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F26E0D951C28725E0053A1C2 /* Home.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		F26E0D961C28725E0053A1C2 /* Home.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
 		F26E0D991C28725E0053A1C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F26E0D9B1C28725E0053A1C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F26E0D9E1C28725E0053A1C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F26E0DA01C28725E0053A1C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F26E0DA61C2878C60053A1C2 /* cellOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellOne.h; sourceTree = "<group>"; };
+		F26E0DA71C2878C60053A1C2 /* cellOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellOne.m; sourceTree = "<group>"; };
+		F26E0DAA1C287B590053A1C2 /* marvel-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "marvel-2.png"; path = "images/marvel-2.png"; sourceTree = "<group>"; };
+		F26E0DAB1C287B590053A1C2 /* marvel-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "marvel-3.png"; path = "images/marvel-3.png"; sourceTree = "<group>"; };
+		F26E0DAC1C287B590053A1C2 /* marvel-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "marvel-4.png"; path = "images/marvel-4.png"; sourceTree = "<group>"; };
+		F26E0DAD1C287B590053A1C2 /* marvel-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "marvel-5.png"; path = "images/marvel-5.png"; sourceTree = "<group>"; };
+		F26E0DAE1C287B590053A1C2 /* marvel-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "marvel-6.png"; path = "images/marvel-6.png"; sourceTree = "<group>"; };
+		F26E0DAF1C287B590053A1C2 /* marvel-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "marvel-8.png"; path = "images/marvel-8.png"; sourceTree = "<group>"; };
+		F26E0DB01C287B590053A1C2 /* marvel-9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "marvel-9.png"; path = "images/marvel-9.png"; sourceTree = "<group>"; };
+		F26E0DB81C2887890053A1C2 /* cellTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellTwo.h; sourceTree = "<group>"; };
+		F26E0DB91C2887890053A1C2 /* cellTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellTwo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +78,15 @@
 		F26E0D8E1C28725E0053A1C2 /* Collection */ = {
 			isa = PBXGroup;
 			children = (
+				F26E0DA91C287B4D0053A1C2 /* images */,
 				F26E0D921C28725E0053A1C2 /* AppDelegate.h */,
 				F26E0D931C28725E0053A1C2 /* AppDelegate.m */,
-				F26E0D951C28725E0053A1C2 /* ViewController.h */,
-				F26E0D961C28725E0053A1C2 /* ViewController.m */,
+				F26E0DA61C2878C60053A1C2 /* cellOne.h */,
+				F26E0DA71C2878C60053A1C2 /* cellOne.m */,
+				F26E0DB81C2887890053A1C2 /* cellTwo.h */,
+				F26E0DB91C2887890053A1C2 /* cellTwo.m */,
+				F26E0D951C28725E0053A1C2 /* Home.h */,
+				F26E0D961C28725E0053A1C2 /* Home.m */,
 				F26E0D981C28725E0053A1C2 /* Main.storyboard */,
 				F26E0D9B1C28725E0053A1C2 /* Assets.xcassets */,
 				F26E0D9D1C28725E0053A1C2 /* LaunchScreen.storyboard */,
@@ -77,6 +102,20 @@
 				F26E0D901C28725E0053A1C2 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F26E0DA91C287B4D0053A1C2 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F26E0DAA1C287B590053A1C2 /* marvel-2.png */,
+				F26E0DAB1C287B590053A1C2 /* marvel-3.png */,
+				F26E0DAC1C287B590053A1C2 /* marvel-4.png */,
+				F26E0DAD1C287B590053A1C2 /* marvel-5.png */,
+				F26E0DAE1C287B590053A1C2 /* marvel-6.png */,
+				F26E0DAF1C287B590053A1C2 /* marvel-8.png */,
+				F26E0DB01C287B590053A1C2 /* marvel-9.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,9 +175,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F26E0DB41C287B590053A1C2 /* marvel-5.png in Resources */,
+				F26E0DB51C287B590053A1C2 /* marvel-6.png in Resources */,
 				F26E0D9F1C28725E0053A1C2 /* LaunchScreen.storyboard in Resources */,
+				F26E0DB11C287B590053A1C2 /* marvel-2.png in Resources */,
 				F26E0D9C1C28725E0053A1C2 /* Assets.xcassets in Resources */,
+				F26E0DB21C287B590053A1C2 /* marvel-3.png in Resources */,
 				F26E0D9A1C28725E0053A1C2 /* Main.storyboard in Resources */,
+				F26E0DB31C287B590053A1C2 /* marvel-4.png in Resources */,
+				F26E0DB71C287B590053A1C2 /* marvel-9.png in Resources */,
+				F26E0DB61C287B590053A1C2 /* marvel-8.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,8 +195,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F26E0D971C28725E0053A1C2 /* ViewController.m in Sources */,
+				F26E0D971C28725E0053A1C2 /* Home.m in Sources */,
+				F26E0DBA1C2887890053A1C2 /* cellTwo.m in Sources */,
 				F26E0D941C28725E0053A1C2 /* AppDelegate.m in Sources */,
+				F26E0DA81C2878C60053A1C2 /* cellOne.m in Sources */,
 				F26E0D911C28725E0053A1C2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

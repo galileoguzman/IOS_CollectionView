@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  cellTwo.h
 //  Collection
 //
 //  Created by Galileo Guzman on 21/12/15.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface cellTwo : UICollectionViewCell
 
-
+@property (strong, nonatomic) IBOutlet UILabel *lblName;
 @end
-
