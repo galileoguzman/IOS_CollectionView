@@ -12,11 +12,14 @@
 
 @property (strong, nonatomic) IBOutlet UICollectionView *collecOne;
 @property (strong, nonatomic) IBOutlet UICollectionView *collecTwo;
+@property (strong, nonatomic) IBOutlet UICollectionView *collectThree;
 
 @property (strong, nonatomic) NSArray *names;
 @property (strong, nonatomic) NSArray *images;
 
 @property (strong, nonatomic) NSArray *namesTwo;
+
+@property (strong, nonatomic) NSArray *namesThree;
 
 @end
 

@@ -22,6 +22,8 @@
 		F26E0DB61C287B590053A1C2 /* marvel-8.png in Resources */ = {isa = PBXBuildFile; fileRef = F26E0DAF1C287B590053A1C2 /* marvel-8.png */; };
 		F26E0DB71C287B590053A1C2 /* marvel-9.png in Resources */ = {isa = PBXBuildFile; fileRef = F26E0DB01C287B590053A1C2 /* marvel-9.png */; };
 		F26E0DBA1C2887890053A1C2 /* cellTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = F26E0DB91C2887890053A1C2 /* cellTwo.m */; };
+		F26E0DBE1C28A1930053A1C2 /* cellThree.m in Sources */ = {isa = PBXBuildFile; fileRef = F26E0DBC1C28A1930053A1C2 /* cellThree.m */; };
+		F26E0DBF1C28A1930053A1C2 /* cellThree.xib in Resources */ = {isa = PBXBuildFile; fileRef = F26E0DBD1C28A1930053A1C2 /* cellThree.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,9 @@
 		F26E0DB01C287B590053A1C2 /* marvel-9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "marvel-9.png"; path = "images/marvel-9.png"; sourceTree = "<group>"; };
 		F26E0DB81C2887890053A1C2 /* cellTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellTwo.h; sourceTree = "<group>"; };
 		F26E0DB91C2887890053A1C2 /* cellTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellTwo.m; sourceTree = "<group>"; };
+		F26E0DBB1C28A1930053A1C2 /* cellThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellThree.h; sourceTree = "<group>"; };
+		F26E0DBC1C28A1930053A1C2 /* cellThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellThree.m; sourceTree = "<group>"; };
+		F26E0DBD1C28A1930053A1C2 /* cellThree.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellThree.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,9 @@
 				F26E0DA71C2878C60053A1C2 /* cellOne.m */,
 				F26E0DB81C2887890053A1C2 /* cellTwo.h */,
 				F26E0DB91C2887890053A1C2 /* cellTwo.m */,
+				F26E0DBB1C28A1930053A1C2 /* cellThree.h */,
+				F26E0DBC1C28A1930053A1C2 /* cellThree.m */,
+				F26E0DBD1C28A1930053A1C2 /* cellThree.xib */,
 				F26E0D951C28725E0053A1C2 /* Home.h */,
 				F26E0D961C28725E0053A1C2 /* Home.m */,
 				F26E0D981C28725E0053A1C2 /* Main.storyboard */,
@@ -181,6 +189,7 @@
 				F26E0DB11C287B590053A1C2 /* marvel-2.png in Resources */,
 				F26E0D9C1C28725E0053A1C2 /* Assets.xcassets in Resources */,
 				F26E0DB21C287B590053A1C2 /* marvel-3.png in Resources */,
+				F26E0DBF1C28A1930053A1C2 /* cellThree.xib in Resources */,
 				F26E0D9A1C28725E0053A1C2 /* Main.storyboard in Resources */,
 				F26E0DB31C287B590053A1C2 /* marvel-4.png in Resources */,
 				F26E0DB71C287B590053A1C2 /* marvel-9.png in Resources */,
@@ -195,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F26E0DBE1C28A1930053A1C2 /* cellThree.m in Sources */,
 				F26E0D971C28725E0053A1C2 /* Home.m in Sources */,
 				F26E0DBA1C2887890053A1C2 /* cellTwo.m in Sources */,
 				F26E0D941C28725E0053A1C2 /* AppDelegate.m in Sources */,

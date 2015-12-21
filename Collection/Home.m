@@ -9,6 +9,7 @@
 #import "Home.h"
 #import "cellOne.h"
 #import "cellTwo.h"
+#import "cellThree.h"
 
 @interface Home ()
 
@@ -25,6 +26,13 @@
     _images = @[@"marvel-2.png",@"marvel-3.png", @"marvel-4.png", @"marvel-5.png", @"marvel-6.png",@"marvel-8.png", @"marvel-9.png"];
     
     _namesTwo = @[@"Galileo",@"Augusto", @"Osvaldo", @"Leonel", @"José Manuel", @"Ricardo", @"Jesus", @"Marquitos"];
+    
+    _namesThree = @[@"Chocolate",@"Tlayudas", @"Chapulines", @"Champurrado", @"Memelitas"];
+    
+    
+    // register nib for collection three
+    [self.collectThree registerNib:[UINib nibWithNibName:@"cellThree" bundle:[NSBundle mainBundle]]
+        forCellWithReuseIdentifier:@"cellThree"];
     
     
 }
@@ -51,6 +59,10 @@
     {
         return _namesTwo.count;
     }
+    else if(collectionView.tag == 3)
+    {
+        return _namesThree.count;
+    }
     
     return 1;
 }
@@ -73,6 +85,15 @@
                            forIndexPath:indexPath];
         
         myCell.lblName.text =  _namesTwo[indexPath.row];
+        
+        return myCell;
+    }
+    else if(collectionView.tag == 3){
+        cellThree *myCell = [collectionView
+                           dequeueReusableCellWithReuseIdentifier:@"cellThree"
+                           forIndexPath:indexPath];
+        
+        myCell.lblName.text =  _namesThree[indexPath.row];
         
         return myCell;
     }
