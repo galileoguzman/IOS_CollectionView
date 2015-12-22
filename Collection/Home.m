@@ -37,13 +37,15 @@
     
     // flow layout for first collection view
     self.flowLayoutOne = [[UICollectionViewFlowLayout alloc] init];
-    [self.flowLayoutOne setItemSize:CGSizeMake(126, 91)];
+    [self.flowLayoutOne setItemSize:CGSizeMake(186, 108)];
+    [self.flowLayoutOne setSectionInset:UIEdgeInsetsMake(100.0f, 10.0f, 10.0f, 10.0f)];
     [self.flowLayoutOne setScrollDirection:UICollectionViewScrollDirectionHorizontal];
     self.flowLayoutOne.minimumInteritemSpacing = 0.0f;
     [self.collecOne setCollectionViewLayout:self.flowLayoutOne];
     self.collecOne.bounces = YES;
     [self.collecOne setShowsHorizontalScrollIndicator:NO];
     [self.collecOne setShowsVerticalScrollIndicator:NO];
+    self.collecOne.contentInset = UIEdgeInsetsMake(2.5, 2.5, 2.5, 2.5); // top, left, bottom, right
     
     
     
@@ -55,8 +57,7 @@
 }
 
 #pragma mark - FlowLayout Delegates
-- (UIEdgeInsets)collectionView:
-(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout insetForSectionAtIndex:(NSInteger)section {
+- (UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout insetForSectionAtIndex:(NSInteger)section {
     return UIEdgeInsetsMake(0, 0, 0, 0);
 }
 
