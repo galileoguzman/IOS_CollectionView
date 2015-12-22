@@ -35,11 +35,29 @@
         forCellWithReuseIdentifier:@"cellThree"];
     
     
+    // flow layout for first collection view
+    self.flowLayoutOne = [[UICollectionViewFlowLayout alloc] init];
+    [self.flowLayoutOne setItemSize:CGSizeMake(126, 91)];
+    [self.flowLayoutOne setScrollDirection:UICollectionViewScrollDirectionHorizontal];
+    self.flowLayoutOne.minimumInteritemSpacing = 0.0f;
+    [self.collecOne setCollectionViewLayout:self.flowLayoutOne];
+    self.collecOne.bounces = YES;
+    [self.collecOne setShowsHorizontalScrollIndicator:NO];
+    [self.collecOne setShowsVerticalScrollIndicator:NO];
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - FlowLayout Delegates
+- (UIEdgeInsets)collectionView:
+(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout insetForSectionAtIndex:(NSInteger)section {
+    return UIEdgeInsetsMake(0, 0, 0, 0);
 }
 
 

@@ -21,5 +21,7 @@
 
 @property (strong, nonatomic) NSArray *namesThree;
 
+@property (nonatomic, strong) IBOutlet UICollectionViewFlowLayout *flowLayoutOne;
+
 @end
 

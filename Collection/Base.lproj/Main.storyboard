@@ -21,30 +21,30 @@
                                 <color key="textColor" red="1" green="0.40241063589999998" blue="0.2324534962" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="scaleAspectFit" showsVerticalScrollIndicator="NO" dataMode="prototypes" id="bEF-L6-xqr">
-                                <rect key="frame" x="0.0" y="49" width="320" height="153"/>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="scaleAspectFit" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="prototypes" id="bEF-L6-xqr">
+                                <rect key="frame" x="0.0" y="49" width="320" height="223"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.011245545230000001" green="0.44430673799999998" blue="0.73656486740000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Bdl-4B-cQB">
-                                    <size key="itemSize" width="145" height="91"/>
+                                    <size key="itemSize" width="126" height="91"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cellOne" id="dDM-oD-57u" customClass="cellOne">
-                                        <rect key="frame" x="0.0" y="31" width="145" height="91"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="126" height="91"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="145" height="91"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="126" height="91"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="UaV-vo-xLm">
-                                                    <rect key="frame" x="0.0" y="0.0" width="152" height="71"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="126" height="71"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wbJ-DN-xBn">
-                                                    <rect key="frame" x="0.0" y="70" width="152" height="21"/>
+                                                    <rect key="frame" x="0.0" y="70" width="126" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" red="0.36667455809999999" green="0.36667455809999999" blue="0.36667455809999999" alpha="1" colorSpace="calibratedRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -66,8 +66,33 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="O6G-3d-ynZ"/>
                                 </connections>
                             </collectionView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" tag="3" contentMode="scaleToFill" dataMode="prototypes" id="NQh-Fj-XRJ">
+                                <rect key="frame" x="0.0" y="440" width="320" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ebn-z0-p3q">
+                                    <size key="itemSize" width="200" height="97"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="nJC-b2-Zdv" customClass="cellThree">
+                                        <rect key="frame" x="60" y="0.0" width="200" height="97"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="200" height="97"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="GY9-Pe-irN"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="CpA-cg-cb2"/>
+                                </connections>
+                            </collectionView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" tag="2" contentMode="scaleToFill" dataMode="prototypes" id="vJc-gA-fX1">
-                                <rect key="frame" x="0.0" y="210" width="320" height="128"/>
+                                <rect key="frame" x="0.0" y="290" width="320" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.011245545230000001" green="0.44430673799999998" blue="0.73656486740000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Jh0-3L-e9U">
@@ -103,31 +128,6 @@
                                 <connections>
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="sgC-7z-2RE"/>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="Hh5-EB-1Q8"/>
-                                </connections>
-                            </collectionView>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" tag="3" contentMode="scaleToFill" dataMode="prototypes" id="NQh-Fj-XRJ">
-                                <rect key="frame" x="0.0" y="386" width="320" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ebn-z0-p3q">
-                                    <size key="itemSize" width="200" height="97"/>
-                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                </collectionViewFlowLayout>
-                                <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="nJC-b2-Zdv" customClass="cellThree">
-                                        <rect key="frame" x="60" y="0.0" width="200" height="97"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="200" height="97"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        </view>
-                                    </collectionViewCell>
-                                </cells>
-                                <connections>
-                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="GY9-Pe-irN"/>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="CpA-cg-cb2"/>
                                 </connections>
                             </collectionView>
                         </subviews>
